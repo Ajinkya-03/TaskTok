@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: wheat;
+}
+
+
+h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #a52828;;
+  margin-bottom: 30px;
+  font-size: 2rem;
+
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button.add-btn {
+  background-color: #a52828;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-left: 10px;
+  font-weight: bold ;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+
+}
+
+button.add-btn:hover {
+  background-color: #851f1f;
+}
+
+.container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #a52828;
+  color: white;
+  padding: 2px 12px;
+  margin-top: 15px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+
+input[type="checkbox"] {
+  transform: scale(1.3);
+  margin-right: 15px;
+}
+
+button.done-btn {
+  background-color: rgb(23, 219, 23);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold ;
+  margin-right: 15px;
+}
+
+
+button.delete-btn {
+  background-color: #fb0606;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold ;
+}
