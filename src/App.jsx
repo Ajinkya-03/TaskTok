@@ -51,7 +51,7 @@ function App() {
   return (
     <main>
 
-    <h1 className=''>To-Do Manager</h1>
+    <h1 className=''> To-Do Manager</h1>
 
     <InputContainer  inputVal={inputVal} writeTodo={writeTodo} addTodo={addTodo} />
     <TodoContainer todos={todo} delTodo={delTodo}  toggleDone={toggleDone}/>
